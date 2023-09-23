@@ -1,0 +1,15 @@
+[{
+  "_id": {
+    "$oid": "650e877843863438fa680b4d"
+  },
+  "firstname": "testing",
+  "lastname": "testing",
+  "email": "user@user.com",
+  "country": "IN",
+  "state": "IN-GJ",
+  "city": "Banās Kāntha",
+  "gender": "male",
+  "dob": "2009-09-15",
+  "age": "",
+  "__v": 0
+}]

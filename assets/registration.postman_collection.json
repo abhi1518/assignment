@@ -1,0 +1,116 @@
+{
+	"info": {
+		"_postman_id": "00aed92e-6e39-47d8-bca9-d2e27bd66b43",
+		"name": "registration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "23694290"
+	},
+	"item": [
+		{
+			"name": "new-registration",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\" : \"abhishekkumar\",\r\n    \"email\" : \"abhi@gmail.com\",\r\n    \"phone\" : 1234567890,\r\n    \"address\" : \"delhi\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:8000/api/registration",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"registration"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "countries",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/country",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"country"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "states",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/state/IN",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"state",
+						"IN"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "cities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/city/IN-AN",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"city",
+						"IN-AN"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "all user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8000/api/students",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"students"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
